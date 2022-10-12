@@ -1,0 +1,476 @@
+h1 {
+    font-family: "Palatino";
+    font-size: 2.5rem;
+    margin: 2rem;
+    font-style: bold;
+}
+
+h2{
+    font-family: "Times New Roman";
+    font-size: 2rem;
+    font-style: bold;
+}
+
+h3{
+    font-family: "Times New Roman";
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #cfe6d5;
+    margin: auto;
+    font-family: "Verdana", "Helvetica";
+    display: block;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grid-container {
+    margin: none;
+    font-family: "Verdana";
+    color: white;
+    font-size: 1rem;
+    padding: none;
+    width: 100%;
+}
+
+.cell {
+    line-height: 4rem;
+}
+
+img {
+    border: solid;
+    border-width: 0.2rem;
+    border-color: white;
+    border-radius: 3rem;
+}
+
+.home {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    height: 40rem;
+}
+
+.top-image {
+    position: relative;
+    left: 48rem;
+    bottom: 14rem;
+}
+
+.top-image-shadow {
+    z-index: -1;
+    position: relative;
+    top: 5rem;
+    left: 49rem;
+    width: 15rem;
+    height: 18rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+}
+
+.bottom-image {
+    z-index: -1;
+    position: relative;
+    left: 42rem;
+    bottom: 36rem;
+}
+
+.bottom-image-shadow {
+    z-index: -1;
+    position: relative;
+    left: 43rem;
+    bottom: 17rem;
+    width: 13.5rem;
+    height: 18rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+}
+
+.intro {
+    position: relative;
+    left: 5rem;
+    bottom: 65rem;
+    font-size: 1.75rem;
+    font-family: "Verdana";
+    text-align: center;
+    background-color: white;
+    line-height: 3.5rem;
+    width: 33rem;
+    border-radius: .5rem;
+}
+
+.intro-shadow {
+    position: relative;
+    left: 4rem;
+    bottom: 60.5rem;
+    font-size: 2rem;
+    background-color: #7ca87b;
+    line-height: 3.5rem;
+    width: 31rem;
+    border-radius: .5rem;
+    z-index: -1;
+}
+
+.self-info {
+    position: relative;
+    left: 5rem;
+    bottom: 60rem;
+    font-size: 1rem;
+    margin-top: -11rem;
+    background-color: white;
+    width: 33rem;
+    text-indent: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.self-info p {
+    margin: auto;
+    line-height: 1.8rem;
+}
+
+.self-info-shadow {
+    position: relative;
+    left: 4rem;
+    bottom: 60rem;
+    background-color: #7ca87b;
+    width: 31rem;
+    text-indent: 1.25rem;
+    border-radius: .5rem;
+    align-content: center;
+    height: 10rem;
+    z-index: -1;
+    vertical-align: middle;
+}
+
+.resume {
+    font-family: "Times New Roman";
+}
+
+.outer-box-frame {
+    text-size-adjust: auto;
+    border: solid;
+    border-radius: 0.45rem;
+    width: 45rem;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-indent: 1rem;
+    background-color: white;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li span {
+    position: relative;
+    left: -0.5rem;
+}
+
+.fun {
+    text-size-adjust: auto;
+    border-radius: 0.45rem;
+    width: 70rem;
+    height: 51rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mind-matters {
+    position: relative;
+    top: -3rem;
+    left: 4rem;
+    width: 38rem;
+    background-color: white;
+    font-style: "Verdana";
+    text-indent: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.mind-matters p {
+    margin: auto;
+}
+
+.mind-matters-shadow {
+    z-index: -1;
+    position: relative;
+    top: 5.5rem;
+    left: 3rem;
+    background-color: #7ca87b;
+    width: 38rem;
+    height: 7rem;
+    border-radius: .5rem;
+}
+
+.mm-image {
+    position: relative;
+    left: 51rem;
+    top: -27rem;
+}
+
+.mmpicshadow {
+    z-index: -1;
+    position: relative;
+    left: 53rem;
+    top: -12.5rem;
+    height: 13rem;
+    width: 13rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+}
+
+.fff {
+    position: relative;
+    left: 24rem;
+    top: -31.5rem;
+    width: 38rem;
+    background-color: white;
+    font-style: "Verdana";
+    text-indent: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.fff p {
+    margin: auto;
+}
+
+.fff-shadow {
+    z-index: -1;
+    position: relative;
+    left: 25rem;
+    top: -20rem;
+    background-color: #7ca87b;
+    width: 38rem;
+    height: 9rem;
+    border-radius: .5rem;
+}
+
+.fff-pic1 {
+    position: relative;
+    left: 6rem;
+    top: -58.5rem;
+}
+
+.fffpic1shadow {
+    z-index: -1;
+    position: relative;
+    left: 5rem;
+    top: -45.5rem;
+    height: 12rem;
+    width: 12.5rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+}
+
+.fffpic2shadow {
+    position: relative;
+    left: 3rem;
+    top: -54rem;
+    height: 14rem;
+    width: 11rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+}
+
+.fff-pic2 {
+    position: relative;
+    left: 4rem;
+    top: -70rem;
+}
+
+.hobbies {
+    position: relative;
+    left: 19rem;
+    top: -89rem;
+    width: 29rem;
+    background-color: white;
+    font-style: "Verdana";
+    text-indent: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.hobbies p {
+    margin: auto;
+}
+
+.hobbies-shadow {
+    z-index: -1;
+    position: relative;
+    left: 18rem;
+    top: -76rem;
+    background-color: #7ca87b;
+    width: 29rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+.ninapic {
+    position: relative;
+    left: 50rem;
+    top: -114rem;
+}
+
+.ninashadow {
+    position: relative;
+    left: 51rem;
+    top: -100rem;
+    width: 15rem;
+    height: 13rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+    z-index: -1;
+}
+
+.projects {
+    text-size-adjust: auto;
+    border-radius: 0.45rem;
+    width: 72rem;
+    height: 54rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-overflow: clip;
+}
+
+.projects div {
+    margin: auto;
+}
+
+.research-shadow {
+    position: relative;
+    top: 5rem;
+    right: 12rem;
+    z-index: -1;
+    background-color: #7ca87b;
+    border-radius: .5rem;
+    height: 8rem;
+    width: 40rem;
+}
+
+.research {
+    position: relative;
+    bottom: 3.5rem;
+    right: 11rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    width: 40rem;
+    text-indent: 2rem;
+    overflow-wrap: break-word;
+}
+
+.knotpic-shadow {
+    z-index: -1;
+    position: relative;
+    left: 22rem;
+    bottom: 10rem;
+    background-color: #7ca87b;
+    border-radius: 3rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+.knotpic {
+    position: relative;
+    left: 52rem;
+    bottom: 24rem;
+}
+
+.ciscshadow {
+    z-index: -1;
+    position: relative;
+    bottom: 18.5rem;
+    background-color: #7ca87b;
+    border-radius: .5rem;
+    height: 11rem;
+    width: 40rem;
+}
+
+.cisc-project {
+    position: relative;
+    bottom: 30rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    width: 40rem;
+    text-indent: 2rem;
+}
+
+.mm-project-shadow {
+    z-index: -1;
+    position: relative;
+    left: 14rem;
+    bottom: 20rem;
+    background-color: #7ca87b;
+    border-radius: .5rem;
+    height: 10rem;
+    width: 40rem;
+}
+
+.mm-project {
+    position: relative;
+    left: 13rem;
+    bottom: 31.5rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    width: 40rem;
+    text-indent: 2rem;
+}
+
+.headspace-shadow {
+    z-index: -1;
+    position: relative;
+    right: 23rem;
+    bottom: 44rem;
+    border-radius: 3rem;
+    height: 11rem;
+    width: 18rem;
+    background-color: #7ca87b;
+}
+
+.headspace {
+    position: relative;
+    left: 6.5rem;
+    bottom: 56rem;
+}
+
+.research p {
+    margin: auto;
+}
+
+.cisc-project p {
+    margin: auto;
+}
+
+.mm-project p {
+    margin: auto;
+}
